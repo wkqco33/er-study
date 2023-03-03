@@ -16,9 +16,9 @@ This project is a study project to learn how to use Electron and React together.
 ## Project Goals
 
 - [x] Create a project with Electron React Boilerplate
-- [] Learn how to use TypeScript with React
-- [] Learn how to use Electron with React
-- [] Make a simple Electron app
+- [ ] Learn how to use TypeScript with React
+- [ ] Learn how to use Electron with React
+- [ ] Make a simple Electron app
 
 ## How to use
 
