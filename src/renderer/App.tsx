@@ -7,12 +7,12 @@ function AppHome() {
   return (
     <Container>
       <Row>
-        <h1> Tittle </h1>
+        <h1> Title </h1>
       </Row>
       <Row>
         <Col>
           <Stack direction="horizontal" gap={2}>
-            <TestButton />
+            <TestButton name="Test Btn" />
             <Button as="a" variant="success">
               Button as link
             </Button>
