@@ -7,7 +7,7 @@ function AppHome() {
   return (
     <Container>
       <Row>
-        <h1> Tittle </h1>
+        <h1> Title </h1>
       </Row>
       <Row>
         <Col>
