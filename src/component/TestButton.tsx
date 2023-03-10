@@ -1,13 +1,26 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 
+interface TestModel {
+  id: number;
+  name: string;
+}
+
 function TestButton() {
-  const [msg, setMsg] = useState('');
+  const [test] = useState<TestModel>({ id: 1, name: 'Test' });
+  const [msg, setMsg] = useState('Ready');
+
+  useEffect(() => {});
 
   return (
-    <Button as="a" variant="primary" onClick={() => setMsg('Test Message')}>
-      {msg.length === 0 ? `Test Button` : `${msg}`}
-    </Button>
+    <div>
+      <p>
+        {test.id} - {test.name}
+      </p>
+      <Button as="a" variant="primary" onClick={() => setMsg('Test Message')}>
+        {msg}
+      </Button>
+    </div>
   );
 }
 
